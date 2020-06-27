@@ -143,6 +143,7 @@
 					<button
 						type="button"
 						class="transition duration-300 ease-in-out
+						focus:outline-none focus:shadow-outline
 						hover:bg-purple-700 hover:text-white font-normal py-2
 						px-4 mr-2 rounded-full">
 						Events
@@ -152,8 +153,9 @@
 					<button
 						type="button"
 						class="transition duration-300 ease-in-out border
-						border-purple-700 hover:bg-purple-700 hover:text-white
-						font-normal py-2 px-4 rounded-full">
+						focus:outline-none focus:shadow-outline border-purple-700
+						hover:bg-purple-700 hover:text-white font-normal py-2
+						px-4 rounded-full">
 						Sign In
 					</button>
 				</a>
