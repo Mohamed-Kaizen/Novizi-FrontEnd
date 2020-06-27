@@ -1,6 +1,6 @@
 module.exports = {
 	purge: {
-		content: ["./src/**/*.svelte"],
+		content: ["./src/**/*.svelte", "./src/**/*.html"],
 		options: {
 			whitelist: ["mode-dark"],
 		},
