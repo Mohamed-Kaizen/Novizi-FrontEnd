@@ -21,3 +21,4 @@ const create_writable_store = (key, start_value) => {
 
 export const token = create_writable_store("token", null)
 export const user = create_writable_store("user", null)
+export const light_mode = create_writable_store("light_mode", true)
