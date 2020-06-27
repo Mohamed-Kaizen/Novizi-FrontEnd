@@ -20,7 +20,7 @@
 </script>
 
 <nav
-	class="fixed w-full transition duration-500 ease-in-out px-4 flex
+	class="fixed z-10 w-full transition duration-500 ease-in-out px-4 flex
 	justify-between h-16 font-bold bg-white border-b text-purple-800
 	dark:bg-gray-900 dark:text-purple-300 dark:border-b-0">
 
