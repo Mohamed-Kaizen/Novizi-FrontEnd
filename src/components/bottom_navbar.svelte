@@ -7,8 +7,8 @@
 	import FaSignInAlt from "svelte-icons/fa/FaSignInAlt.svelte"
 	const links = [
 		["/", "Home", FaHome],
-		["/events", "Events", MdEvent],
-		["/signin", "Sign In", FaSignInAlt],
+		["/events/", "Events", MdEvent],
+		["/signin/", "Sign In", FaSignInAlt],
 	]
 </script>
 
