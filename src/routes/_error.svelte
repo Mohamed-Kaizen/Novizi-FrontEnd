@@ -1,11 +1,13 @@
-<!-- <script>
+<script>
 	import {Textfield, Snackbar, Button, Icon} from "svelte-mui/src"
 
 	export let status
 	export let error
 
 	const dev = process.env.NODE_ENV === "development"
-</script><svelte:head>
+</script>
+
+<svelte:head>
 	<title>{status} | Relay</title>
 </svelte:head>
 
@@ -47,6 +49,4 @@
 
 {#if dev && error.stack}
 	<pre>{error.stack}</pre>
-{/if} -->
-
-<h1>404</h1>
+{/if}
