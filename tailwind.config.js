@@ -17,6 +17,14 @@ module.exports = {
 			"dark-focus",
 			"focus",
 		],
+		borderColor: [
+			"responsive",
+			"dark",
+			"dark-focus",
+			"focus",
+			"dark-hover",
+			"hover",
+		],
 		borderWidth: [
 			"responsive",
 			"dark",
