@@ -95,6 +95,15 @@
 				</svg>
 			{/if}
 		</li>
+		<a href="/events" class="hidden lg:block select-none">
+			<button
+				type="button"
+				class="transition duration-300 ease-in-out focus:outline-none
+				focus:shadow-outline hover:bg-purple-700 hover:text-white
+				font-normal py-2 px-4 mr-2 rounded-full">
+				Events
+			</button>
+		</a>
 
 		{#if $token && $user}
 			<Menu origin="top right" dy="{57}" width="{300}">
@@ -138,28 +147,16 @@
 				</Menuitem>
 			</Menu>
 		{:else}
-			<div class="hidden lg:block select-none">
-				<a href="/events">
-					<button
-						type="button"
-						class="transition duration-300 ease-in-out
-						focus:outline-none focus:shadow-outline
-						hover:bg-purple-700 hover:text-white font-normal py-2
-						px-4 mr-2 rounded-full">
-						Events
-					</button>
-				</a>
-				<a href="/signin">
-					<button
-						type="button"
-						class="transition duration-300 ease-in-out border
-						focus:outline-none focus:shadow-outline border-purple-700
-						hover:bg-purple-700 hover:text-white font-normal py-2
-						px-4 rounded-full">
-						Sign In
-					</button>
-				</a>
-			</div>
+			<a href="/signin" class="hidden lg:block select-none">
+				<button
+					type="button"
+					class="transition duration-300 ease-in-out border
+					focus:outline-none focus:shadow-outline border-purple-700
+					hover:bg-purple-700 hover:text-white font-normal py-2 px-4
+					rounded-full">
+					Sign In
+				</button>
+			</a>
 		{/if}
 	</ul>
 
