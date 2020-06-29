@@ -14,8 +14,8 @@
 	}
 
 	async function sign_out() {
-		token.set(null)
-		user.set(null)
+		token.set(false)
+		user.set(false)
 	}
 </script>
 
